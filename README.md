@@ -38,12 +38,12 @@ step 2: Generate a JSON file for the camera pose. Replace the `--recon_die` and 
 cd Aerial-NeRF
 python ENU2nerf_SCUT.py
 ```
-step 3: Generate the pair.txt. "Replace the path in `colmap_input` with your own path, then execute:
+step 3: Generate the pair.txt. Replace the path in `colmap_input` with your own path, then execute:
 ```
 cd Aerial-NeRF
 python colmap_input.py
 ```
-step 4: Modify `configs/SCUT.txt`. `camera_bin` represents the output file of COLMAP that has not been processed by `model_aligner`. Other parameters are the same as in nerf-pytorch: https://github.com/yenchenlin/nerf-pytorch
+step 4: Modify `configs/SCUT.txt`. `camera_bin` represents the output file of COLMAP that has not been processed by `model_aligner`. Other parameters are the same as in nerf-pytorch: https://github.com/yenchenlin/nerf-pytorch.  
 The training and testing are the same as train and test on the SCUTer dataset.  
 
 
