@@ -8,7 +8,7 @@ pip install -r requirements
 ```
 We provide the SCUTer aerial dataset with uneven distribution of drones:   
 Baidu Netdisk: https://pan.baidu.com/s/14VLd4QzTJL6k2bXOVMgIzA?pwd=4g7j 
-Password：4g7j 
+Password：4g7j  
 Training Aerial-NeRF use the following command:
 ```
 cd Aerial-NeRF
