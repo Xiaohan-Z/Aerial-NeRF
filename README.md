@@ -6,3 +6,10 @@ Our environment is based on Python 3.7. Please configure the environment using t
 cd Aerial-NeRF
 pip install -r requirements
 ```
+We provide the SCUTer aerial dataset with uneven distribution of drones: 
+We provide the network parameters in Aerial-NeRF/logs. Use the following code to reproduce the results in the paper:
+```
+cd Aerial-NeRF
+python run_nerf.py --config configs/SCUT.txt
+```
+
